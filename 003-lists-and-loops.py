@@ -34,3 +34,14 @@ for fruit in fruits:
     print(fruit)
 
 
+# run loop 7 times, using the "range" builtin function - https://docs.python.org/3/library/functions.html
+for i in range(7):
+    print(i)
+
+
+print('\n\n')
+
+
+# if you want the range's to start at '2', and increment 2 times until it reaches 20, then do:
+for i in range(2, 22, 2):
+    print(i)

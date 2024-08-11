@@ -6,6 +6,8 @@ var2=15
 
 result=var1+var2
 
+
+# print is a builtin function - https://docs.python.org/3/library/functions.html
 print(result)  # 20
 
 
