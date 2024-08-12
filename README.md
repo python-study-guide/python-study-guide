@@ -28,3 +28,7 @@ Builtin python functions - https://docs.python.org/3/library/functions.html. You
 
 
 The Python standard library - https://docs.python.org/3/library/index.html. You need to import them to use them
+
+
+
+Use [Poetry](https://python-poetry.org/) for all your package management - https://towardsdatascience.com/ditch-requirements-use-poetry-00a936fe9b6d. It is the python's equivalent of nodejs's npm. 
