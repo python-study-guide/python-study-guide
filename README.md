@@ -1,6 +1,6 @@
 # python-study-guide
 
-
+Handy place to learn python - https://www.w3schools.com/python/default.asp
 
 install [pyenv](https://github.com/pyenv/pyenv)
 
