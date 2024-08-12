@@ -12,6 +12,7 @@ python's equivalent to node's package.json I think is:
 https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
 
 
+[https://pypi.org/](https://pypi.org/) is the python's equivalent of nodejs's [npmjs](https://www.npmjs.com/)
 
 To use pyproject.toml
 
