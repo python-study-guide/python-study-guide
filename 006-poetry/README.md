@@ -157,3 +157,25 @@ poetry env info --path | pbcopy
 ```
 
 After that you open up a file.py and click on the top right play icon, to run your code in debug mode. 
+
+You can also run this on in terminal like this:
+
+```
+poetry run python ./006-poetry/myApp1/myapp1/001-http-requests-and-json.py
+```
+
+Also if you try run the following (while in the pyproject.toml directory):
+
+```
+poetry run python .
+```
+
+You'll get:
+
+```
+$ poetry run python .                  
+/Users/sher/Library/Caches/pypoetry/virtualenvs/myapp1-KWSvBJ9V-py3.12/bin/python: can't find '__main__' module in '/Users/sher/github/python-study-guide/006-poetry/myApp1'
+```
+
+According to the [official docs](https://docs.python.org/3/library/__main__.html#main-py-in-python-packages), you just need to add a file called `__main__.py` at the repo's top level, i.e. same level as the `pyproject.toml`. 
+

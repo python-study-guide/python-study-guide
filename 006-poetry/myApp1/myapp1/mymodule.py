@@ -1,2 +1,2 @@
-def greetings1(name):
+def greeting(name):
   print("Hello, " + name)
